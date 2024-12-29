@@ -38,7 +38,8 @@ def _get_closest_colour_name(rgb):
         hex_names_dict = webcolors.CSS3_HEX_TO_NAMES
     else:
         hex_names_dict = webcolors._definitions._CSS3_HEX_TO_NAMES
-    for h, name in hex_names_dict.items():        r = int(h[1:3], 16)
+    for h, name in hex_names_dict.items():
+        r = int(h[1:3], 16)
         g = int(h[3:5], 16)
         b = int(h[5:7], 16)
 
